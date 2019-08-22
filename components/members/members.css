@@ -17,6 +17,7 @@ th {
 	text-align: left;
 	font-family: Helvetica;
 	color: red;
+	background-color: black;
 }
 
 td {
@@ -81,10 +82,10 @@ ul li {
 }
 
 #X h1 {
-	font-size: 150pt;
+	font-size: 158pt;
 	position: relative;
-	top: -168px;
-	left: 40px;
+	margin-left: 40px;
+	top: -185px;
 }
 
 
