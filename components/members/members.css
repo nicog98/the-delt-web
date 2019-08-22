@@ -1,0 +1,90 @@
+/* Stylesheet for members page */
+
+h1, h2, h3 {
+	font-family: Helvetica;
+}
+
+table {
+}
+
+tr {
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+}
+
+th {
+	text-align: left;
+	font-family: Helvetica;
+	color: red;
+}
+
+td {
+	justify-content: center;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+ul li {
+	justify-content: center;
+	height: 220px;
+}
+
+.member {
+	width: 200px;
+	text-align: center;
+}
+
+.member-pic-cover {
+	width: 120px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	left: 20%;
+}
+
+.member-pic {
+	height: 100%;
+	width: auto;
+}
+
+.member-name {
+	margin: 5px 0px 0px 0px;
+	font-size: 20px;
+}
+
+.member-title {
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+}
+
+.member-loc {
+	color: grey;
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+}
+
+/* Shapes */
+.shape {
+}
+
+#triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 150px solid black;
+}
+
+#X h1 {
+	font-size: 150pt;
+	position: relative;
+	top: -168px;
+	left: 40px;
+}
+
+

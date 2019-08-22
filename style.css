@@ -1,0 +1,76 @@
+/* the-delt stylesheet */
+
+h1 {
+	font-family: 'Fira Sans';
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: Helvetica;
+}
+
+a {
+	color: black;
+	font-family: Helvetica;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+#theta-delta-chi {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	justify-content: center;
+
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+}
+
+.letter {
+	position: relative;
+	top: 50%;
+	width: 30%;
+	text-align: center;
+}
+
+.letter a {
+	position: absolute;
+	display: none;
+	top: 45%;
+	left: 0px;
+	right: 0px;
+}
+
+.letter:hover a {
+	display: block;
+}
+
+.letter:hover h1 {
+	opacity: 0.5;
+}
+
+#Theta {
+	color: black;
+}
+
+#Delta {
+	color: black;
+}
+
+#Chi {
+	color: black;
+}
